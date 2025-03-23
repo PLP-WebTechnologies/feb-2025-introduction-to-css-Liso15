@@ -1,0 +1,64 @@
+/* Apply a general font and background color to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style the header with a different font, background color, and padding */
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+/* Style the content section with margins, padding, and a border */
+.content-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the image with margins, padding, and a border */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Style the footer with a different background color and padding */
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional typography styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
